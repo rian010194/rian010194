@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rikard Andersson</title>
+  <desc id="desc">Building dependable AI systems under human mandate</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#0b3b46"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#52e0c4" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#52e0c4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#b8fff1" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1035" cy="75" r="290" fill="url(#glow)"/>
+  <g fill="none" stroke="#65e8cf" stroke-linecap="round">
+    <path d="M845 265C900 265 900 95 955 95s55 170 110 170 55-85 110-85" stroke-opacity=".28" stroke-width="2"/>
+    <circle cx="845" cy="265" r="6" fill="#65e8cf" stroke="none"/>
+    <circle cx="955" cy="95" r="6" fill="#65e8cf" stroke="none"/>
+    <circle cx="1065" cy="265" r="6" fill="#65e8cf" stroke="none"/>
+    <circle cx="1175" cy="180" r="6" fill="#65e8cf" stroke="none"/>
+  </g>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="78" y="134" fill="#ffffff" font-size="58" font-weight="700" letter-spacing="-1">Rikard Andersson</text>
+    <text x="82" y="190" fill="#83f3dc" font-size="25" font-weight="600" letter-spacing="2">BUILDING DEPENDABLE AI SYSTEMS</text>
+    <text x="82" y="244" fill="#c9d8e7" font-size="22">Provider-neutral · Human-governed · Evidence-driven</text>
+  </g>
+</svg>

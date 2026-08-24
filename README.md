@@ -1,28 +1,60 @@
-<h1 align="center">Hej, jag är Rikard 👋</h1>
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Rikard Andersson — building dependable AI systems" width="100%" />
+</p>
 
-Jag bygger **Cortxt** — en leverantörsoberoende plattform för att skapa, styra,
-återuppta och verifiera långvarigt AI-arbete under mänskligt mandat.
+<p align="center">
+  <a href="https://cortxt.io">Webbplats</a> ·
+  <a href="https://docs.cortxt.io">Dokumentation</a> ·
+  <a href="https://github.com/rian010194/cortxt">Cortxt på GitHub</a>
+</p>
 
-- 🧭 **Provider-neutral kontroll** — en dispatchmotor som väljer rätt modell
-  för rätt jobb, med policy-gate, evidenskedja och rollback.
-- 🔧 **Arkitektur för mänskligt mandat** — inte autonomi för autonomins skull,
-  utan förutsägbara handoffar mellan AI och operatör.
-- 🌐 **Domäner:** [cortxt.io](https://cortxt.io) · [app.cortxt.io](https://app.cortxt.io)
+## Hej, jag är Rikard
 
-### Aktiva repos
+Jag är en självlärd fullstack-utvecklare från Malmö som bygger **Cortxt** — en
+leverantörsoberoende plattform för långvarigt AI-arbete under mänskligt mandat.
 
-- [`cortxt`](https://github.com/rian010194/cortxt) — Huvudrepo: dispatch,
-  state-portabilitet, skill-manifest och runtime-harness.
-- [`cortxt-resilient-inference`](https://github.com/rian010194/cortxt-resilient-inference) —
-  Provider-resilient fallback-exekvering med policy-gate.
+Jag är särskilt intresserad av systemen runt modellerna: hur arbete kan styras,
+återupptas och verifieras utan att användarens kontext, tillstånd eller historik
+blir låst till en enda leverantör.
 
-### Teknikstack
+> Modeller ska vara utbytbara resurser. Användaren ska äga arbetets tillstånd,
+> minne, verktyg och evidens.
 
-Python · TypeScript · React · Flask · FastAPI · MCP · GitHub Actions · Docker
+## Det jag bygger
 
-### Bakgrund
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/rian010194/cortxt">Cortxt</a></h3>
+      <p>En provider-neutral plattform för att skapa, styra, återuppta och verifiera långvarigt AI-arbete.</p>
+      <p><strong>Fokus:</strong> reasoning runtime, portabelt tillstånd, policy-styrd exekvering, CLI och MCP.</p>
+      <p><code>Python</code> <code>TypeScript</code> <code>Astro</code> <code>MCP</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/rian010194/cortxt-resilient-inference">Resilient Inference</a></h3>
+      <p>Ett fristående lager för policy-styrd fallback mellan inference-leverantörer.</p>
+      <p><strong>Fokus:</strong> explicita policies, hårda timeouts, återhämtning och observerbart beslutsunderlag.</p>
+      <p><code>Python</code> <code>HTTP</code> <code>Policy gates</code></p>
+    </td>
+  </tr>
+</table>
 
-Sjävlärd fullstack-utvecklare som tänker i system och bygger för långsiktighet.
-Cortxt startade som ett personligt verktyg för att hantera en växande portfölj
-av idéer. Frågan som driver arbetet: när AI blir standardutvecklingsmiljön — vem
-kontrollerar kontexten, och till vilken kostnad?
+## Så tänker jag kring AI-system
+
+- **Mänskligt mandat före blind autonomi** — operatören ska kunna förstå,
+  begränsa och ta över.
+- **Portabilitet före inlåsning** — modeller och leverantörer ska gå att byta
+  utan att arbetet förlorar sin identitet.
+- **Evidens före illusionen av säkerhet** — viktiga beslut ska kunna följas
+  tillbaka till körning, policy och källa.
+- **Byggt i verkligheten** — Cortxt utvecklas öppet som både produkt och ett
+  praktiskt bevis på arkitekturen.
+
+## Verktyg jag arbetar med
+
+`Python` · `TypeScript` · `React` · `Astro` · `FastAPI` · `Flask` · `MCP` ·
+`Docker` · `GitHub Actions`
+
+<p align="center">
+  <sub>Just nu: Cortxt v0.2 — state portability, provider-neutral execution och tydligare människa–AI-handoffs.</sub>
+</p>
