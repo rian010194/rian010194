@@ -3,58 +3,60 @@
 </p>
 
 <p align="center">
-  <a href="https://cortxt.io">Webbplats</a> ·
-  <a href="https://docs.cortxt.io">Dokumentation</a> ·
-  <a href="https://github.com/rian010194/cortxt">Cortxt på GitHub</a>
+  <a href="https://cortxt.io">Website</a> ·
+  <a href="https://docs.cortxt.io">Documentation</a> ·
+  <a href="https://github.com/rian010194/cortxt">Cortxt on GitHub</a>
 </p>
 
-## Hej, jag är Rikard
+## Hi, I'm Rikard
 
-Jag är en självlärd fullstack-utvecklare från Malmö som bygger **Cortxt** — en
-leverantörsoberoende plattform för långvarigt AI-arbete under mänskligt mandat.
+I'm a self-taught full-stack developer based in Malmö, Sweden. Right now, my
+work is entirely focused on **Cortxt** — a provider-neutral platform for
+long-running AI work under human mandate.
 
-Jag är särskilt intresserad av systemen runt modellerna: hur arbete kan styras,
-återupptas och verifieras utan att användarens kontext, tillstånd eller historik
-blir låst till en enda leverantör.
+I care deeply about compliance, accountability, and the systems surrounding AI
+models: how intelligent work can be governed, resumed, and verified without
+locking a user's context, state, or history to a single provider.
 
-> Modeller ska vara utbytbara resurser. Användaren ska äga arbetets tillstånd,
-> minne, verktyg och evidens.
+I spend a lot of time thinking about what comes next — not only what AI can do
+today, but what we need to build now so that tomorrow's systems remain
+controllable, portable, and worthy of trust.
 
-## Det jag bygger
+> Models should be replaceable resources. People should own their work's state,
+> memory, tools, and evidence.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/rian010194/cortxt">Cortxt</a></h3>
-      <p>En provider-neutral plattform för att skapa, styra, återuppta och verifiera långvarigt AI-arbete.</p>
-      <p><strong>Fokus:</strong> reasoning runtime, portabelt tillstånd, policy-styrd exekvering, CLI och MCP.</p>
-      <p><code>Python</code> <code>TypeScript</code> <code>Astro</code> <code>MCP</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/rian010194/cortxt-resilient-inference">Resilient Inference</a></h3>
-      <p>Ett fristående lager för policy-styrd fallback mellan inference-leverantörer.</p>
-      <p><strong>Fokus:</strong> explicita policies, hårda timeouts, återhämtning och observerbart beslutsunderlag.</p>
-      <p><code>Python</code> <code>HTTP</code> <code>Policy gates</code></p>
-    </td>
-  </tr>
-</table>
+## What I'm building
 
-## Så tänker jag kring AI-system
+### [Cortxt](https://github.com/rian010194/cortxt)
 
-- **Mänskligt mandat före blind autonomi** — operatören ska kunna förstå,
-  begränsa och ta över.
-- **Portabilitet före inlåsning** — modeller och leverantörer ska gå att byta
-  utan att arbetet förlorar sin identitet.
-- **Evidens före illusionen av säkerhet** — viktiga beslut ska kunna följas
-  tillbaka till körning, policy och källa.
-- **Byggt i verkligheten** — Cortxt utvecklas öppet som både produkt och ett
-  praktiskt bevis på arkitekturen.
+Cortxt is a provider-neutral platform for creating, steering, resuming, and
+verifying long-running AI work. It treats models and inference providers as
+replaceable resources behind user-owned contracts.
 
-## Verktyg jag arbetar med
+The work currently centres on:
 
-`Python` · `TypeScript` · `React` · `Astro` · `FastAPI` · `Flask` · `MCP` ·
+- portable state and durable context;
+- policy-governed, provider-neutral execution;
+- evidence, auditability, and compliance by design;
+- clear handoffs between people and AI systems;
+- interfaces that can survive changes in models, vendors, and regulation.
+
+`Python` · `TypeScript` · `Astro` · `FastAPI` · `MCP` ·
 `Docker` · `GitHub Actions`
 
+## Principles I build around
+
+- **Human mandate over blind autonomy** — people must be able to understand,
+  constrain, and take over.
+- **Compliance as architecture** — governance and evidence should be built into
+  the system, not added after the fact.
+- **Portability over lock-in** — changing a model or provider should not erase
+  the identity of the work.
+- **Evidence over assumed confidence** — important decisions should remain
+  traceable to their execution, policy, and sources.
+- **Long-term thinking over short-term demos** — today's design choices shape
+  who controls tomorrow's intelligent systems.
+
 <p align="center">
-  <sub>Just nu: Cortxt v0.2 — state portability, provider-neutral execution och tydligare människa–AI-handoffs.</sub>
+  <sub>Currently building Cortxt v0.2: portable state, provider-neutral execution, and accountable human–AI collaboration.</sub>
 </p>
