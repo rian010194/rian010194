@@ -1,62 +1,69 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Rikard Andersson — building dependable AI systems" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="Rikard Andersson — building Cortxt for durable AI work" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://cortxt.io">Website</a> ·
-  <a href="https://docs.cortxt.io">Documentation</a> ·
-  <a href="https://github.com/rian010194/cortxt">Cortxt on GitHub</a>
+  <a href="https://cortxt.io">cortxt.io</a> ·
+  <a href="https://github.com/rian010194/cortxt">Cortxt</a> ·
+  <a href="https://cortxt.io/docs/">Documentation</a>
 </p>
 
 ## Hi, I'm Rikard
 
-I'm a self-taught full-stack developer based in Malmö, Sweden. Right now, my
-work is entirely focused on **Cortxt** — a provider-neutral platform for
-long-running AI work under human mandate.
+I'm a self-taught developer and product builder in Malmö, Sweden. I'm building
+**[Cortxt](https://github.com/rian010194/cortxt)** in public: an operating layer
+for durable AI work.
 
-I care deeply about compliance, accountability, and the systems surrounding AI
-models: how intelligent work can be governed, resumed, and verified without
-locking a user's context, state, or history to a single provider.
+The problem I care about is simple to describe and difficult to solve: important
+work should not lose its identity, authority, evidence, or human decision gates
+because an agent, model, provider, or runtime changes.
 
-I spend a lot of time thinking about what comes next — not only what AI can do
-today, but what we need to build now so that tomorrow's systems remain
-controllable, portable, and worthy of trust.
-
-> Models should be replaceable resources. People should own their work's state,
-> memory, tools, and evidence.
+> **Durable authority. Replaceable execution.**
 
 ## What I'm building
 
+Cortxt keeps the Workstream durable while execution remains replaceable:
+
+```text
+human mandate → controlled execution → evidence → review → human decision
+```
+
+The open-source repository currently spans Python, TypeScript, Astro, MCP,
+Docker, GitHub Actions, provider policy, engine adapters, evidence contracts,
+and a developing Cortxt OS with Work Console at its center.
+
+I'm currently focused on:
+
+- making mandates and human authority operational rather than decorative;
+- preserving state and evidence across replacement Runs;
+- building a calm, work-first product instead of another agent cockpit;
+- allowing users to create stack-specific views without granting generated UI
+  new authority;
+- turning the architecture into a useful product that I can dogfood and share.
+
+## Selected work
+
 ### [Cortxt](https://github.com/rian010194/cortxt)
 
-Cortxt is a provider-neutral platform for creating, steering, resuming, and
-verifying long-running AI work. It treats models and inference providers as
-replaceable resources behind user-owned contracts.
+The main project: durable Workstreams, mandates, policy, dispatch, evidence,
+human decisions, CLI/MCP interfaces, and replaceable execution.
 
-The work currently centres on:
+### [Cortxt resilient inference](https://github.com/rian010194/cortxt-resilient-inference)
 
-- portable state and durable context;
-- policy-governed, provider-neutral execution;
-- evidence, auditability, and compliance by design;
-- clear handoffs between people and AI systems;
-- interfaces that can survive changes in models, vendors, and regulation.
+A focused proof for policy-gated fallback execution across inference paths.
 
-`Python` · `TypeScript` · `Astro` · `FastAPI` · `MCP` ·
-`Docker` · `GitHub Actions`
+## How I work
 
-## Principles I build around
+- Build solo, document decisions, and invite independent review.
+- Prefer explicit contracts and evidence over hidden automation.
+- Keep verified capabilities separate from product direction.
+- Design for user ownership and portability instead of provider lock-in.
 
-- **Human mandate over blind autonomy** — people must be able to understand,
-  constrain, and take over.
-- **Compliance as architecture** — governance and evidence should be built into
-  the system, not added after the fact.
-- **Portability over lock-in** — changing a model or provider should not erase
-  the identity of the work.
-- **Evidence over assumed confidence** — important decisions should remain
-  traceable to their execution, policy, and sources.
-- **Long-term thinking over short-term demos** — today's design choices shape
-  who controls tomorrow's intelligent systems.
+If you're running a consequential AI workflow that needs continuity, evidence,
+provider policy, or explicit human decision gates, I would like to hear how it
+works today.
 
 <p align="center">
-  <sub>Currently building Cortxt v0.2: portable state, provider-neutral execution, and accountable human–AI collaboration.</sub>
+  <a href="https://cortxt.io"><strong>Explore Cortxt</strong></a> ·
+  <a href="https://github.com/rian010194/cortxt/issues">Open an issue</a>
 </p>
