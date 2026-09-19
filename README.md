@@ -52,6 +52,11 @@ human decisions, CLI/MCP interfaces, and replaceable execution.
 
 A focused proof for policy-gated fallback execution across inference paths.
 
+### [Deck](https://github.com/rian010194/deck)
+
+A local-first surface for orchestration across projects and agent tools —
+currently a pilot (v0.1) with read-surfaces for runs and work tracking.
+
 ## How I work
 
 - Build solo, document decisions, and invite independent review.
